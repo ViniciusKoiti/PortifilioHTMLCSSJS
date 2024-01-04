@@ -1,7 +1,13 @@
+body, html{
+    margin: auto;
+    padding: auto;
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0dvh 5dvw;
 }
 
 .logo{
@@ -19,8 +25,9 @@
     padding: 0.75rem;
     border:solid;
     border-radius: 50px;
-    border-color: #6E07F3;
-    color: #6E07F3;
+    border-color: #fff;
+    background: linear-gradient(to right, rgb(135, 206, 250), rgb(0, 70, 140));
+
 }
 
 .image-logo{
@@ -61,4 +68,15 @@
 
 .github-icon{
     display: none;
+}
+
+.center-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-section{
+    background:linear-gradient(to bottom, rgb(255, 255, 255), rgb(230, 230, 230)); ;
+    display: flex;
 }
