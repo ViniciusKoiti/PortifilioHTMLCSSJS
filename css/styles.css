@@ -1,7 +1,13 @@
+body, html{
+    margin: auto;
+    padding: auto;
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0dvh 5dvw;
 }
 
 .logo{
@@ -19,8 +25,9 @@
     padding: 0.75rem;
     border:solid;
     border-radius: 50px;
-    border-color: #6E07F3;
-    color: #6E07F3;
+    border-color: #fff;
+    background: linear-gradient(to right, rgb(227 244 255), rgb(246, 246, 246));
+
 }
 
 .image-logo{
@@ -62,3 +69,97 @@
 .github-icon{
     display: none;
 }
+
+.center-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-section{
+    background:linear-gradient(to bottom, rgb(255, 255, 255), rgb(230, 230, 230)); ;
+    display: flex;
+}
+
+.list-tech{
+    list-style: none;
+}
+
+.personal-job{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.personal-job-title{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-job-description{
+    width: 100%;
+}
+
+.personal-job-description-title{
+
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+  
+  .card-img {
+    width: 100%;
+    display: block;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-body {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+  }
+  
+  .card-text {
+    font-size: 0.9em;
+    margin-bottom: 16px;
+    color: #555;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: #0066ff;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+  
+  .card-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .card-project-title{
+    width: 50%;
+  }
