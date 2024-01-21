@@ -3,10 +3,16 @@ body, html{
     padding: auto;
 }
 
+body, html{
+    margin: auto;
+    padding: auto;
+}
+
 .nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0dvh 5dvw;
     padding: 0dvh 5dvw;
 }
 
@@ -27,6 +33,9 @@ body, html{
     border-radius: 50px;
     border-color: #fff;
     background: linear-gradient(to right, rgb(227 244 255), rgb(246, 246, 246));
+
+    border-color: #fff;
+    background: linear-gradient(to right, rgb(135, 206, 250), rgb(0, 70, 140));
 
 }
 
@@ -163,3 +172,14 @@ body, html{
   .card-project-title{
     width: 50%;
   }
+
+.center-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-section{
+    background:linear-gradient(to bottom, rgb(255, 255, 255), rgb(230, 230, 230)); ;
+    display: flex;
+}
